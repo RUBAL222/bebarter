@@ -14,7 +14,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void Homebutton(View view) {
-        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        startActivity(new Intent(getApplicationContext(), Main2Activity.class));
     }
 
     public void buttonRegister(View view) {
@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void Home(View view) {
-        startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+        startActivity(new Intent(getApplicationContext(), Main2Activity.class));
 
     }
 }
